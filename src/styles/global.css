@@ -20,6 +20,15 @@ body {
 }
 
 h1 {
-  color: #4caf50;
+  color: #614e23;
   text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 20px;
+  margin: 0;
+  border: 5px solid;
+  border-color: #d8b28b;
+  border-radius: 10%;
+  background-color: #f4e1c1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
