@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 :root {
-  --primary-color: #333;
-  --secondary-color: #444;
-  --background-color: #f0f0f0;
-  --input-background-color: #fff;
-  --input-border-color: #ccc;
-  --input-focus-color: #a1a1a1;
-  --button-background-color: #3a3a3a;
-  --button-hover-background-color: #555;
+  --primary-color: #4a6f3b;
+  --secondary-color: #708d46;
+  --background-color: #f4f9f4;
+  --input-background-color: #ffffff;
+  --input-border-color: #d1e7d0;
+  --input-focus-color: #a1c4a1;
+  --button-background-color: #6ab47d;
+  --button-hover-background-color: #5a9b69;
   --text-color: #333;
   --placeholder-color: #aaa;
   --border-radius: 8px;
