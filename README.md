@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Story Weave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Story Weave** is a web platform designed for creating and storing stories. Built with modern web technologies like TypeScript, React, Vite, and PostgreSQL, Story Weave aims to offer an intuitive and dynamic experience for users to craft and manage their narratives. 
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Create and manage multiple stories.
+- Organize stories into chapters for better structure.
+- Store metadata and user-generated content securely.
+- Seamless integration with a PostgreSQL database for efficient data handling.
+- User authentication and session management (coming soon).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Technologies
+- **Frontend**: 
+  - React
+  - TypeScript
+  - Vite
+- **Backend**:
+  - PostgreSQL
+  - Node.js (optional for future REST API development)
+- **Version Control**:
+  - Git & GitHub
